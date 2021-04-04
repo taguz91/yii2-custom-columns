@@ -81,7 +81,10 @@ GridView::widget([
     ],
 
     [
-      'class' => \taguz91\CustomColumns\UpdatedAtColumn::class,
+      'class' => \taguz91\CustomColumns\SwitchColumn::class,
+      'attribute' => 'attribute',
+      'api' => 'api/v1/toggle', // This endpoint add the primarykey 
+      'active' => true, // Condition for activate the toggle 
     ],
 
     [
@@ -96,4 +99,13 @@ For ```\taguz91\CustomColumns\ModalColumn``` you need to include the modal widge
 
 ```php 
 <?= \taguz91\CustomColumns\widgets\ModalAjax::widget() ?>
+```
+
+For ```\taguz91\CustomColumns\SwitchColumn::class``` you need to include the bootstrap4-toogle assets in your AppAsset
+
+```php
+$depends = [
+  ...,
+  \taguz91\CustomColumns\assets\ToggleAsset::class
+];
 ```
