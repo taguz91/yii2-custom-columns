@@ -1,6 +1,6 @@
 Custom Columns
 ==============
-This columns is aplicable to grid view 
+This columns is aplicable to grid view, for bootstrap 4 
 
 Installation
 ------------
