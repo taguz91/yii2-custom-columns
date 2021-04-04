@@ -7,9 +7,7 @@ use yii\grid\DataColumn;
 class ImageColumn extends DataColumn
 {
 
-  /**
-   * @var string
-   */
+  /** @var string */
   public $urlPrefix = '';
 
   public $format = 'html';
