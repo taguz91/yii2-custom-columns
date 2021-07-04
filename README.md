@@ -2,6 +2,11 @@ Custom Columns
 ==============
 This columns is aplicable to grid view, for bootstrap 4 
 
+[![Latest Stable Version](http://poser.pugx.org/taguz91/yii2-custom-columns/v)](https://packagist.org/packages/taguz91/yii2-custom-columns) 
+[![Total Downloads](http://poser.pugx.org/taguz91/yii2-custom-columns/downloads)](https://packagist.org/packages/taguz91/yii2-custom-columns) 
+[![Latest Unstable Version](http://poser.pugx.org/taguz91/yii2-custom-columns/v/unstable)](https://packagist.org/packages/taguz91/yii2-custom-columns) 
+[![License](http://poser.pugx.org/taguz91/yii2-custom-columns/license)](https://packagist.org/packages/taguz91/yii2-custom-columns)
+
 Installation
 ------------
 
